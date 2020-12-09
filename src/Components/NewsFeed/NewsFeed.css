@@ -1,0 +1,67 @@
+.newsFeed {
+    color: #fff;
+    flex: 0.75;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.newsFeed__portfolio {
+    margin-bottom: 1rem;
+}
+.newsFeed__buyingSection {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #3b4754;
+    padding: 1.3rem 0;
+}
+.newsFeed__marketSection {
+    margin: 5rem 0;
+    border: 1px solid #3b4754;
+    padding: 1.3rem;
+    padding-bottom: 2.5rem;
+    border-radius: 3px;
+    position: relative;
+}
+.newsFeed__marketBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsFeed__marketBox > h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.newsFeed__marketIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.close {
+    display: none;
+}
+.newsFeed__marketIcon:hover {
+    background: #3b4754;
+}
+.newsFeed__popularitySection {
+    margin-top: 3rem;
+}
+.newsFeed__popularityHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.newsFeed__popularityHeader > p {
+    font-size: 12px;
+    color: #20c794;
+}
+.newsFeed__popularityContent {
+    width: 80%;
+}
+.newsFeed__popularityContent > .MuiChip-root {
+    color: #fff;
+    border: 1px solid #3b4754;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}

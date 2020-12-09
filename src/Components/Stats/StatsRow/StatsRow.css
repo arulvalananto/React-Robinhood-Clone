@@ -1,0 +1,47 @@
+.statsRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  transition: background 0.4s;
+}
+.statsRow:hover {
+    background: #31363A;
+}
+.statsRow__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.statsRow__intro > h5 {
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+.statsRow__intro > p {
+    font-size: 12px;
+}
+.statsRow__chart {
+    display: flex;
+    align-items: center;
+}
+.statsRow__numbers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.statsRow__percentage {
+    padding-top: 5px;
+}
+.statsRow__percentage--green {
+    color: #5AC53B;
+}
+.statsRow__percentage--red {
+    color: red;
+}
+@media(max-width:1275px) {
+    .statsRow {
+        border-right: 1px solid #31363A;
+    }
+    .statsRow__chart {
+        padding: 0 20px;
+    }
+}

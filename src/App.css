@@ -1,0 +1,15 @@
+.app__body {    
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 600px;
+}
+.app__container {
+    display: flex;
+    width: 85%;
+}
+@media(max-width:1275px) {
+    .app__container {
+        flex-direction: column;
+    }
+}

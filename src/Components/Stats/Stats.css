@@ -1,0 +1,34 @@
+.stats {
+    color: #fff;
+    flex: 0.25;
+    display: flex;
+    padding: 10px;
+}
+.stats__container {
+    border: 1px solid #42494D;
+    border-radius: 5px;
+    background: #1E2023;
+    flex: 1;
+    overflow-y: scroll;
+}
+.stats__container::-webkit-scrollbar {
+    display: none;
+}
+.stats__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #42494D;
+    padding: 20px;
+}
+
+@media(max-width:1275px) {
+    .stats__content {
+        display: flex;
+        overflow-x: scroll;
+    }
+    .stats__content::-webkit-scrollbar {
+        display: none;
+    }
+}

@@ -1,0 +1,24 @@
+.timeLine {
+    border-bottom: 1px solid #3b4754;
+}
+.timeLine__buttonsContainer {
+    display: flex;
+}
+.timeLine__button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.timeLine__button:hover,
+.timeLine__button.active {
+    color: #5AC53B;
+}
+.timeLine__button.active {
+    border-bottom: 2px solid #5AC53B;
+}
+@media(max-width:500px) {
+    .timeLine__button {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
