@@ -2,7 +2,7 @@ import firebase from 'firebase';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDko-TU5wb4piFDPQ2d_LmgTo8r4dYRzio",
+  apiKey: "AIzaSyDko-TU5wb4piFDPQ2d_LmgTo8r4dYRzio134",
   authDomain: "robinhood-copy.firebaseapp.com",
   projectId: "robinhood-copy",
   storageBucket: "robinhood-copy.appspot.com",
